@@ -1,0 +1,24 @@
+table {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: yellow;
+    padding: 5px 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: pink;
+}
+
+tbody tr:nth-child(even) {
+    background-color: grey;
+}
+th, td {
+    padding: 20px; 
+}
+td{
+    padding: 2px 20px;
+}
