@@ -1,0 +1,89 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 3px 8px rgba(84, 84, 84, 0.03);
+}
+
+th, td {
+    padding: 20px 40px; 
+    border: none;
+}
+tr{
+    border: 2px solid whitesmoke;
+}
+
+caption{
+    font-size: 20px;
+    padding: 20px;
+}
+
+table thead{
+    background-color: whitesmoke;
+}
+
+
+table thead tr th:nth-child(1){
+    text-align: left;
+}
+
+table tbody tr td:nth-child(1){
+    text-align: left;
+}
+
+.premium{
+    background-color:  rgb(0, 98, 255);
+    color: whitesmoke;
+}
+
+.premiumdef{
+    background-color:  rgba(0, 98, 255, 0.053);
+    border: 2px solid whitesmoke;
+}
+
+.premiumdefamarillo{
+    background-color:  rgba(0, 98, 255, 0.053);
+    border: 2px solid whitesmoke;
+    color: yellow;
+}
+
+.rojo{
+    color: red;
+}
+
+.amarillo{
+    color: yellow;
+}
+
+.premiumdefverde{
+    background-color:  rgba(0, 98, 255, 0.053);
+    border: 2px solid whitesmoke;
+    color: rgb(0, 255, 0);
+}
+.verde{
+    color: rgb(0, 255, 0);
+}
+
+button{
+    border: 1px solid rgb(0, 98, 255);
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: rgb(0, 98, 255);
+}
+button:hover{
+    background-color: rgb(0, 98, 255);
+    color: whitesmoke;
+}
+
+p{
+    color: whitesmoke;
+    background-color: orange;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 15px;
+}
